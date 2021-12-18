@@ -17,7 +17,7 @@
 
 function countSheeps(arrayOfSheep) {
     // TODO May the force be with you
-    let numSheep = [];
+    let numSheep = 0;
       for(i = 0; i < arrayOfSheep.length; i++){
     // pull out true from the array 
     // put true in new array 
