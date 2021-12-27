@@ -9,13 +9,11 @@
 // monkeyCount(1) // --> [1]
 
 
-function monkeyCount(n) {
+function monkeyCount(){
     //your code here
-      let numMonkey = [];
-      for(let i = 1; i <= n; i++){
-        numMonkey.push(i)
-      }
-      return numMonkey   
-    }
-
-    
+  let numMonkey = [];
+  for(let i = 1; i <= n; i++){
+    numMonkey.push(i)
+  }
+  return numMonkey   
+}
