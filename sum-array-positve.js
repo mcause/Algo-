@@ -14,4 +14,10 @@ function positiveSum(arr) {
     }
       return sum 
   }
+
+  //  or
+
+  function positiveSum(arr) {
+    return arr.reduce((a, c) => c > 0 ? a + c : a, 0);
+    }
   
