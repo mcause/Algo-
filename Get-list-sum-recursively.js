@@ -8,3 +8,4 @@ function sumR(x) {
     }else{
       return x[0] = sumR(x.slice(1));
   }
+}
